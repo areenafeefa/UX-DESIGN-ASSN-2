@@ -1,0 +1,179 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* GLOBAL PAGE STYLES */
+
+/* make every page fade in */ 
+
+html {
+    overflow-x: clip;
+}
+
+@keyframes pagefadein {
+    to {
+        opacity:1;
+    }
+}
+
+body {
+    color: #08101c;
+}
+
+main {
+    opacity: 0;
+    animation: pagefadein 1s forwards;
+}
+
+p {
+    font-size: 2vh;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+.btn:focus,.btn:active {
+   border: none;
+   box-shadow: none !important;
+}
+
+.container-fluid {
+    padding: 0;
+}
+/* OTHER STYLES */
+
+section {
+    padding: 10vh;
+}
+
+div:has(> img) img {
+    transition: transform 0.5s ease;
+}
+
+section:has(> img) img {
+    transition: transform 0.5s ease;
+}
+
+div:has(> img) {
+    overflow: hidden;
+}
+
+section:has(> img) {
+    overflow: hidden;
+}
+
+img:hover {
+    transform: scale(1.05); /* zoom in 10% */
+}
+
+
+/* FULL WEBSITE NAVBAR STYLES */
+
+/* BUTTON STYLES (FULL PAGE) */
+
+.pageswitch {
+    background-color: maroon;
+    color:  #BBBDC9;
+    font-size: 3vh;
+    display: flex;
+}
+
+.pageswitch i {
+    padding: 0.5vw;
+    color:  #BBBDC9;
+}
+
+.pageswitch * {
+    margin: 0 auto;
+}
+
+.pageswitch:hover {
+    background-color:  #BBBDC9;
+    color: maroon;
+
+}
+
+.pageswitch:hover i {
+    color: maroon;
+}
+
+header {
+    border-bottom: 2px solid #BBBDC9;
+}
+
+.navbar {
+    background-color: #420c13;
+}
+
+.navbar * {
+    color: white;
+    padding: 0 1vw 0 1vw;
+}
+
+.navbar ul li, .navbar ul li button {
+    padding: 1vh;
+}
+
+.navbar *:hover {
+    color: #BBBDC9;
+}
+
+.navbar *.active {
+    color: #BBBDC9;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    text-decoration: underline;
+}
+
+/* FOOTER STYLES */
+
+footer {
+        display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color:white;
+    background-color:#420c13;
+    height: 40vh;
+    padding: 2vw;
+    border-top: 4px solid #BBBDC9;
+
+}
+
+footer i {
+    font-size: 1em;
+    margin: 1vh;
+    padding: 2px;
+}
+
+footer a i {
+    font-size: 2em;
+
+}
+
+footer a {
+    color: white !important;
+}
+
+footer a:hover {
+    color: gold !important;
+}
+
+footer .nav-link.active {
+    text-decoration: underline;
+}

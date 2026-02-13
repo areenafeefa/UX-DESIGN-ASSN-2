@@ -1,0 +1,113 @@
+/*GENERAL CSS*/
+/*Styling the texts*/
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: clamp(3rem,4vw,4rem);
+}
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: clamp(2rem,3vw,3rem);
+}
+h3 {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(1.25rem,2vw,3rem);
+}
+h4 {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(1rem,1.7vw,2.5rem);
+}
+p {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(0.7rem,1vw,1rem);
+}
+body {
+    background-color: #E9ECEF;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+
+/*STYLING INTRO BOX (PICTURE AND TEXT)*/
+/*Set position of image*/
+.intro_box {
+    position: relative;
+    height: 50vh;
+    background-image: url(../images/chess_club_guide.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Give a translucent layer above image so that text stands out more (unless hovered over)*/
+.intro_box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.3);
+    transition: background-color 0.5s ease-in;
+}
+.intro_box:hover::before {
+    background-color: transparent;
+}
+/*Styling the texts in intro box*/
+.intro_box h1 {
+    position:relative;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+.intro_box h3 {
+    position:relative;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+}
+
+
+
+/*CONTENT*/
+/*Positioning the sections*/
+#beginner_guide,#practice {
+    padding: 10px;
+    margin: 0 0 min(5px,5vh);
+    text-align:center;
+}
+/*Text for intro*/
+main h4 {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: #9f8a21;   
+}
+/*Enlarge boxes when hovered over-overview*/
+.col {
+    transition: transform 0.2s ease-in-out;
+}
+.col:hover {
+    transform: scale(1.05); 
+}
+/*Format the imgs*/
+img {
+    width: 30vw;
+    height:fit-content;
+    margin-bottom:2vh;
+    border-radius: 5%;
+}
+/*Standardising height and width for boxes*/
+main .col{
+    width: 45%;
+    margin: 2.5%;
+    border: 1px solid #30323D;
+    text-align:center;
+}
+/*Button to link the different pages-overview*/
+.col a{
+    text-decoration: none;
+    color: #b69f2f;
+    font-size: clamp(0.8rem,1.2vw,1.5rem);
+}
+.col a.btn{
+    border:1px solid #b69f2f;
+}

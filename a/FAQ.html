@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYP Chess Club FAQ</title>
+
+    <!--Bootstrap links-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <!--Fontawesome links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <!--Css for the specific file-->
+    <link rel="stylesheet" href="css/FAQ.css">
+
+    <!--Css for the general items (e.g navbar and footer)-->
+    <link rel="stylesheet" href="css/general.css">
+
+</head>
+
+<body>
+    <!--Navigation Panel-->
+    <nav class="sticky-top navbar navbar-expand-lg custom-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand">NYP Chess Club</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOptions"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarOptions">
+                <ul class="navbar-nav">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="members.html">Members</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link active" aria-current="page" href="FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="guide.html">Guide</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link" href="signup.html">Signup</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--FAQ intro box-->
+    <section>
+        <div class="container-fluid d-flex justify-content-center align-items-center flex-column intro_box">
+            <h1>FAQ</h1>
+        </div>
+    </section>
+    <main class="container-fluid flex-column justify-content-center" id="content_box">
+        <!--FAQ boxes-->
+        <div id="faq">
+            <br>
+            <br>
+            <br>
+            <div class="container-fluid justify-content-center">
+                <div class="accordion mb-5" id="accordionqns">
+                    <!--Qn1-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#qn1" aria-expanded="false" aria-controls="qn1">
+                                <strong>Do I have to bring my own chess board?</strong>
+                            </button>
+                        </h2>
+                        <div id="qn1" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Nope, our club provides chessboards and chess pieces, so bring yourself and have fun! If
+                                you want to bring your own chess set, feel free to do so too!
+                            </div>
+                        </div>
+                    </div>
+                    <!--Qn2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#qn2" aria-expanded="false" aria-controls="qn2">
+                                <strong>Do I need any prior experience or knowledge about chess to join the
+                                    club?</strong>
+                            </button>
+                        </h2>
+                        <div id="qn2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                No, you do not! As long as you are interested about learning chess, our doors are open
+                                for you!
+                            </div>
+                        </div>
+                    </div>
+                    <!--Qn3-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#qn3" aria-expanded="false" aria-controls="qn3">
+                                <strong>Besides playing chess, what other activities does the club organize?</strong>
+                            </button>
+                        </h2>
+                        <div id="qn3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                We occasionally hold club outings and camps to help foster club interaction! You can
+                                look forward to them!
+                            </div>
+                        </div>
+                    </div>
+                    <!--Qn4-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#qn4" aria-expanded="false" aria-controls="qn4">
+                                <strong>I have a question not listed here. Who can I contact for more information?</strong>
+                            </button>
+                        </h2>
+                        <div id="qn4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Feel free to contact Ms Jo(9477 4771) our Chess Club teacher or Mina(9278 3645) our Chess Club president!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>

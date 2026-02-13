@@ -1,0 +1,283 @@
+/* OVERALL PAGE STYLES */
+h3 {
+    color: #2C2C2C;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3vh;
+ }
+em {
+    color: #420c13;
+}
+
+section {
+    scroll-margin-top: 10vh;
+}
+
+/* HOMEPAGE BANNER HEADER STYLES*/
+
+.bannerimg img {
+    height: 60vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(50%)
+
+}
+
+.bannerimg {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bannertext {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;      
+    height: inherit;  
+
+}
+
+.bannertext p {
+    margin-top: 5vh;
+}
+
+/* HOME NAVBAR STYLES */
+
+.hnavbar .nav-item {
+    display: flex;
+    justify-content: center;
+    background-color: #420c13;
+    color:#BBBDC9;
+}
+
+.hnavbar .nav-link { 
+    color: #BBBDC9;
+    padding: 10px;
+}
+
+.hnavbar .nav-item:hover {
+    background-color: #BBBDC9;
+}
+
+.hnavbar .nav-item:hover .nav-link {
+    color: #420c13;
+}
+
+.hnavbar .nav-link.active {
+    color: #420c13;
+    text-decoration-line: underline;
+}
+
+.hnavbar .nav-item:has(> .nav-link.active) {
+    background-color: #BBBDC9;
+}
+
+.hnavbar {
+    background-color: #7B0D1E;
+}
+
+/* SMALL HOME NAVBAR STYLES */
+
+#smallnavbartext {
+    padding: 10px;
+    color: #BBBDC9
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+#homenavbarsmall .navbar-toggler {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+/* PAGE STYLES */
+
+section:nth-child(even) {
+    background-color: #e9eff2;
+}
+
+/* OVERVIEW SECTION STYLES */
+
+.titletext {
+    display: flex;
+    width: 60%;
+    margin: 5vh;
+}
+
+
+.overviewicon {
+    font-size: 5vh;
+    color: #420c13;
+
+}
+
+.overviewcard {
+    flex-direction: column; 
+    align-items: center;     
+    justify-content: center; 
+    text-align: center;      
+    height: inherit;  
+    margin: 2vh;
+}
+
+.overviewcard p {
+    text-align: justify;
+}
+
+/* TESTIMONIAL SECTION STYLES */
+
+
+#testimonials a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 4vw;
+}
+/* EVENTS SECTION STYLES */
+
+.carousel .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.eventcarouselcontrol {
+    padding: 20px;
+}
+
+.container-text {
+    margin: 0 auto;
+    width: 70%;
+    font-size: 10px;
+}
+
+#events a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.learnmore img {
+    object-fit: cover;
+    height: 1vh;
+}
+
+.learnmore .card-body {
+    margin: 1vh;
+}
+
+.card-img-top {
+    height: 30vh;
+    object-fit: cover;
+}
+
+#eventcarousel .carousel-inner  {
+    display: flex;
+    margin: 0 auto;
+}
+
+#eventcarousel .carousel-item {
+    min-height: 55vh;
+}
+
+#eventcarousel .card-body {
+    text-align: center;
+}
+
+
+/* ACHIEVEMENT SECTION STYLES */
+
+#achievements {
+    background-color: #191D32;
+}
+
+#achievements h3 {
+    color: #F55D3E;
+    letter-spacing: 2px;
+}
+
+#achievements p, #achievements h2 {
+    color: white;
+}
+
+
+#achievementcarousel {
+    margin: 0 auto;
+}
+
+#achievementcarousel p, #achievementcarousel h2{
+    color: black;
+}
+
+#achievementcarousel .card-body {
+    margin: 20px;
+
+}
+
+.flexcardimg img {
+    object-fit: cover;
+}
+
+#achievements .pageswitch {
+    margin: 0 auto;
+}
+
+#achievements .carousel-item {
+    height: 50vh;
+    width: 100%;
+}
+
+#achievements .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* SIGNUP SECTION STYLES */
+
+.decoimage {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+
+}
+
+/* DECORATIVE IMAGE STYLES */
+
+.decoimage  * {
+    width: 20%;
+    margin: 2vh 2vw 10vh 1vw;
+}
+
+.decoimage img:hover {
+    width: 20%;
+    box-shadow: 0 1px 1px 0 #BBBDC9;
+} 
+
+.ending {
+    margin: 3vw;
+}
+

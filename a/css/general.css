@@ -1,0 +1,43 @@
+/*STYLING NAVIGATION PANEL*/
+/*Setting the colour for the panel*/
+.navbar {
+    background-color: #30323D;
+    height: 10vh;
+    box-sizing: border-box;
+}
+/*Setting the default font and colour for the navigation tabs and navigation brand*/
+.navbar-brand,.nav-link {
+    color: #FFFFFF;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif ;
+}
+/*Making the NYP Chess Club brand more emphasised*/
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+/*Disable the change in colour due to bootstraps automatic hover effect*/
+.navbar-brand:hover {
+    color:#FFFFFF ;
+}
+/*Turning the font gold when hovering over the navigation tab*/
+.nav-link:hover {
+    color: #C5B358;
+}
+/*Making the active page stand out from the rest, allows users to see which page they are on better*/
+.nav-link.active {
+    color: #C5B358!important;
+    font-weight: bold!important;
+}
+
+
+/*STYLING SIDEBAR*/
+#sidebar {      
+    top: 10vh;
+    height: 95vh;
+    width: clamp(50px,4.5vw,4.5vw);
+    background-color: #393c4d;
+}
+#about_icon,#overview_icon {
+    text-align: center;
+    font-size: max(2vw,20px);
+}

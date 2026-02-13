@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.branding {
+    font-size: x-large;
+    color: white;
+}
+
+img {
+    width: 350px;
+    height: 225px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    margin:auto;
+}
+section {
+    text-align: center;
+}
+
+.infomain{
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.container{
+    display: flex;
+    border:1px solid var(grey);
+    border-radius: 1em;
+    margin-bottom: 20px;
+    padding: mind(3em,15%);
+}
+
+
+.infomain main{
+    padding: min(30px,7%);
+}
+.infomain main p{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+
+.nav-pills .nav-link.active {
+    background-color: maroon;
+}

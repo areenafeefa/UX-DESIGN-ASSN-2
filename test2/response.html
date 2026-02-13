@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href="libs/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="libs/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles/globalstyles.css">
+    <link rel="stylesheet" href="styles/response.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="home.html">NYP | Symphony Orchestra</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav w-100 justify-content-end mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonials.html">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="achievements.html">Achievements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div class="bannerimg">
+            <div class="bannertext">
+                <h1> Congratulations! </h1>
+                <p> We're excited to see you soon!</p>
+                <span class="fas fa-heart fa-beat"></span>
+            </div>
+            <img src="assets/images/groupphoto.jpg" alt="Our full orchestra together"></img>
+        </div>
+
+        <section id="responsecontent" class="container mt-4">
+            <h4 id="responsecontenttitle"> Form Response </h4>
+            <div class="container mt-">
+                            <hr>
+
+                <h5>Personal Particulars</h5>
+                <div class="col-12 row">
+                    <div class="col">
+                        <label class="form-label">First Name</label>
+                        <div id="firstname" class="formres"></div>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Last Name</label>
+                        <div id="lastname" class="formres"></div>
+                    </div>
+                </div>
+
+                <div class="row col-12 mt-3">
+                    <div class="col">
+                        <label class="form-label">Admin Number</label>
+                        <div id="adminno" class="formres"></div>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Year of Study</label>
+                        <div id="year" class="formres"></div>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">School</label>
+                        <div id="school" class="formres"></div>
+                    </div>
+                </div>
+
+                <h5 class="mt-4">CCA Information</h5>
+                <div class="col-12 row">
+                    <div class="col">
+                        <label class="form-label">Instrument Section</label>
+                        <div id="section" class="formres"></div>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Instrument</label>
+                        <div id="instrument" class="formres"></div>
+                    </div>
+                </div>
+
+                <div class="col-12 row">
+                    <div class="col">
+                        <label class="form-label">Skill Level</label>
+                        <div id="skill" class="formres"></div>
+                    </div>
+                </div>
+
+                <div id="advancedsection" class="mt-3">
+                    <h5>Advanced Details</h5>
+                    <div class="mb-3">
+                        <label class="form-label">Years of Training</label>
+                        <div id="experience" class="advres formres"></div>
+                    </div>
+                    <div class=" mb-3">
+                        <label class="form-label">Have you performed publicly before?</label>
+                        <div id="performance" class="advres formres"></div>
+                    </div>
+                </div>
+
+                <h5 class="mt-4">Contact Information</h5>
+                <div class="row">
+                    <div class="col">
+                        <label class="form-label">Email</label>
+                        <div id="email" class="formres"></div>
+                    </div>
+                    <div class="col">
+                        <label class="form-label">Phone Number</label>
+                        <div id="phoneno" class="formres"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="ending d-flex row">
+
+
+            <h2> Done here? </h2><br>
+            <h1>Go back home!</h1>
+            <a class="btn pageswitch rounded-pill mt-4" href="home.html"> Go Home </a>
+            <h2></h2>
+
+        </div>
+    </main>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center border-top">
+        <div class="col-md-4 mb-0 ">
+            <p> Contact Us</p>
+            <hr>
+            <i class="fa-regular fa-envelope"></i> <a href="mailto:info@company.com"
+                class="text-decoration-none">info@company.com</a> <br>
+            <i class="fa fa-phone"></i><a href="tel:+6512345678" class="text-decoration-none">+65 1234 5678</a>
+        </div>
+
+        <a href="/" class="col-md-4 d-flex  mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+            aria-label="Bootstrap">
+        </a>
+
+        <div class="col-md-4 justify-content-end">
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="home.html" class="nav-link px-2">Home</a></li>
+                <li class="nav-item"><a href="faq.html" class="nav-link px-2 ">FAQ</a>
+                </li>
+                <li class="nav-item"><a href="about.html" class="nav-link px-2 ">About</a></li>
+            </ul>
+
+            <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="https://instagram.com/nypsopage" target="_blank" class="nav-link px-2 "><i
+                            class="fa-brands fa-instagram"></i></a></li>
+                <li class="nav-item"><a href="https://facebook.com/nypsopage" target="_blank" class="nav-link px-2 "><i
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li class="nav-item"><a href="https://tiktok.com/@nypsopage" target="_blank" class="nav-link px-2 "><i
+                            class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/response.js" defer> </script>
+
+</body>
+
+</html>

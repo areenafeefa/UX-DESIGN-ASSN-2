@@ -1,0 +1,99 @@
+img {
+    height: 20vh;
+    width: 100%;
+}
+
+#responsecontent {
+    border: 1px solid grey;
+    padding: 3vh;
+}
+
+.formres {
+    padding: 1vh;
+    background-color: #e3e7eb;
+    border: 1px solid #ced4da;
+    color: #212529;
+}
+
+.banner div {
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 1000;
+}
+
+.container {
+    margin-bottom: 4vh;;
+}
+
+.banner {
+    width: 100%;
+    height: 40vh;
+
+}
+#responsecontenttitle {
+    width: 100%;
+    padding: 1vw;
+    color: maroon;
+}
+.ending {
+    margin: 5vh;
+}
+
+.ending a
+ {
+    padding: 1vh;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+
+.banner i {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: #F55D3E;
+}
+
+.ending h1 {
+    width: 100%;
+    font-size: 3rem;
+    font-style: oblique;
+    color: maroon;
+}
+
+.bannerimg img {
+    height: 40vh;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    filter: brightness(50%)
+
+}
+
+.bannerimg {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.bannertext {
+    position: absolute;
+    font-size: 60px;
+    color: white;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;      
+    height: inherit;  
+
+}
+
+.bannertext p {
+    margin-top: 5vh;
+}

@@ -1,0 +1,170 @@
+.accordion-item {
+    text-align: center;
+    width: 750px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav {
+    background-color: maroon;
+}
+
+
+
+.branding {
+    font-size: x-large;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: sans-serif;
+
+}
+
+.active,
+.accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+text {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 100px;
+}
+
+#helppp {
+    background-color: rgb(83, 1, 1);
+    border-radius: 10px;
+
+}
+
+.whitepls {
+    color: white;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+}
+
+.branding {
+    color: white;
+}
+
+.liststuff {
+    color: white
+}
+
+#faq {
+    background-color: rgb(101, 87, 179);
+    text-align: center;
+    border-radius: 10px;
+}
+
+#q1 {
+    margin-top: 150px;
+}
+
+.endme {
+    text-align: center;
+}
+
+h6 {
+    font-size: 35px;
+    font-style: italic;
+}
+
+#myCarousel {
+    height: 300px;
+}
+
+.image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.item {
+    width: 100%;
+    height: 300px
+}
+
+.itemimg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.box {
+    background-color: rgb(101, 87, 179);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.tocrop {
+    height: 500px;
+    width: 700px;
+}
+
+.eventstuff {
+    color: white;
+    font-size: 25px;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.banner {
+    position: relative;
+    display: inline-block;
+    object-fit: cover;
+
+}
+
+#testbox {
+    background-color: rgb(101, 87, 179);
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.faqitem {
+    background-color: rgb(101, 87, 179);
+    text-align: center;
+    border-radius: 10px;
+}

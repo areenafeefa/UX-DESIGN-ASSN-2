@@ -1,0 +1,69 @@
+    /*standardising the general css*/
+    h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+    font-size: clamp(3rem,4vw,4rem);
+}
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: clamp(2rem,3vw,3rem);
+}
+h3 {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(1.25rem,2vw,3rem);
+}
+h4 {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(1rem,1.7vw,2.5rem);
+}
+p {
+    font-family:"Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-size: clamp(0.7rem,1vw,1rem);
+}
+body {
+    background-color: #E9ECEF;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+/*styling the header*/
+    #members{
+        font-weight: bolder; 
+        text-align: center;
+        background-color: goldenrod;
+    }
+
+/*styling the description*/
+    #memberdesc{
+        text-align: center;
+        background-color: palegoldenrod;
+    }
+
+/*styling the member list*/
+    .container{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+        
+    }
+
+    #president{
+        text-align: center;
+        background-color:lightgrey
+    }
+
+    #vicepresident{
+        text-align: center;
+        background-color:lightgrey
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        column-gap: 10px;
+    }
+    
+    #teacher{
+        text-align: center;
+        background-color:lightgrey
+    }
+}

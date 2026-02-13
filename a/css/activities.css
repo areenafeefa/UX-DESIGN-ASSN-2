@@ -1,0 +1,110 @@
+/*standardising the background color and font of the activities page*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    background-color: #E9ECEF;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/*styling the activities header*/
+#activity {
+    font-weight: bolder;
+    text-align: center;
+    background-color: goldenrod;
+}
+
+/*styling the achievements section*/
+#achievements {
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+#achievementpara {
+    list-style-position: inside;
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+
+
+#end {
+    text-align: center;
+    font-weight: bolder;
+}
+
+/*styling the schedule section*/
+#schedule {
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+#tues {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.tables-wrapper table {
+    flex: 1, 1, 0;
+    min-width: 0;
+    height: 100%;
+    table-layout: fixed;
+}
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fri {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+#tuesday {
+
+    text-align: center;
+}
+
+#friday {
+    text-align: center;
+}
+
+/*styling the opportunities section*/
+#opportunities {
+    text-align: center;
+    background-color: palegoldenrod;
+}
+
+#opportunities_desc {
+    text-align: center;
+    font-weight: bold;
+}
+
+#number {
+    font-size: 50px;
+}
+
+#name {
+    font-size: large;
+    text-align: left;
+}
+
+#desc {
+    text-align: left;
+}
+
+#pic {
+    align-items: end;
+    align-content: end;
+}
